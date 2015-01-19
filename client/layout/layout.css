@@ -1,0 +1,23 @@
+
+
+.main-head {
+	color: black;
+}
+
+.header p {
+	color: black;
+	text-align: center;
+	font-size: 2rem;
+}
+
+#main-img {
+	position: relative;
+	margin: none;
+	border-radius: 10px;
+}
+
+.main-head {
+	top: 190px;
+	letter-spacing: 1px;
+	font-size: 4rem;
+}
