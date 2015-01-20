@@ -1,14 +1,16 @@
 <template name="layout">
-<body>
+<body>		
 	<div class="container">
+		<div class="row blank"></div>
 		<div class="row top">
 			<div class="twelve columns>">
-				{{> nav}}
 				{{> header}}
 			</div>	
 		</div>
+		<div class="row">
 			<div class="twelve columns">
-				
+				{{> nav}}
+		</div>		
 			</div>
 		<div id="mainContent">
 				{{> yield}}
@@ -23,12 +25,16 @@
 
 <template name="header">
 	<div class="row header">
-	<div class="twelve columns subhead">
+	<div class="three columns">
 		<h1 class="main-head">Beaverton Literacy Council</h1>
-		<img class="u-max-full-width" id="main-img" src="booksgrad.jpg">
-		
-			<p><em>Low cost adult ESL, literacy and US Citizenship classes</em></p>
-	</div>	
+		<!-- <p class="subhead">Low cost adult ESL, literacy and US Citizenship classes</p> -->
 	</div>
+		<div class="nine columns"><img class="u-max-full-width" id="main-img" src="booksgrad.jpg"></div>
+
+		
+		
+		
+			
+	</div>	
 </template>
 

@@ -1,0 +1,45 @@
+p {
+	font-size: 1.4rem;
+}
+
+.adultesl, .tests, .tutor {
+	background-color: #BFBFBF;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 5px;
+}
+
+.tutor {
+	background-color: #DADFE1;
+}
+
+.important {	
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.announce {
+	color: red;
+	letter-spacing: 1.5px;
+	margin-bottom: 0px;
+}
+
+.important p {
+	text-align: left;
+	margin: 0px 20px 0px 20px;
+
+}
+
+.announcetext {
+	margin-bottom: 10px;
+}
+
+.subhead {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.esl li {
+	font-size: 2rem;
+}

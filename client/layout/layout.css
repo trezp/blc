@@ -1,23 +1,40 @@
-
-
-.main-head {
-	color: black;
+* {
+  max-width: 100%;
+  box-sizing: border-box; 
 }
 
-.header p {
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; 
+}
+
+.blank {
+	height: 20px;
+}
+
+.main-head {
+	font-family: 'Radley', serif;
 	color: black;
-	text-align: center;
-	font-size: 2rem;
+	padding: 5px;
+	margin-top: 15px;
+	font-size: 3.5rem;
+}
+
+.header {
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
 }
 
 #main-img {
-	position: relative;
-	margin: none;
-	border-radius: 10px;
+	margin: 20px 0px;
+	float: right;
 }
 
-.main-head {
-	top: 190px;
-	letter-spacing: 1px;
-	font-size: 4rem;
+
+.subhead {
+	margin-bottom: 0px;
+}
+
+.top {
+	margin: 0;
 }
